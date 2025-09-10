@@ -34,6 +34,7 @@ git clone https://github.com/ogbinar/ftw-de-journal.git
    git commit -m "Add Day 1 notes"
    git push
    ```
+or you can also use [github.dev](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor).
 
 4. **Present from your journal** in standups/demos.
 
