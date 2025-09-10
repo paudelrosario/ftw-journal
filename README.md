@@ -30,7 +30,7 @@ git clone https://github.com/ogbinar/ftw-de-journal.git
 3. **Commit small & often**:
 
    ```bash
-   git add journal/*.md
+   git add . 
    git commit -m "Add Day 1 notes"
    git push
    ```
