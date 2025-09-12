@@ -27,3 +27,4 @@
 ### Mini reflection (3–5 sentences)
 What surprised me? What would I do differently next time? What will I watch out for in production?
 
+### BONUS: What is a meme that best describes what you feel or your learning today?
