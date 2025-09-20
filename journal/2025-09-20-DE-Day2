@@ -1,0 +1,46 @@
+# Journal — 9-20-2025 — Data Modeling
+
+## 1) What I learned (bullets, not prose)
+Raw -> Clean (Cleaned Version) -> Sandbox (Query) -> Mart (views for connection with DataBase)
+
+    Table saves the data - creates a new copy of data
+    View - continuous query; saves the query
+
+
+
+## 2) New vocabulary (define in your own words)
+- ENGINE MEMORY - saves to memory
+- DATA MAPPING - 
+
+
+## 3) Data Engineering mindset applied (what principles did I use?)
+- 
+
+## 4) Decisions & assumptions (why, alternatives, trade-offs)
+- 
+
+## 5) Open questions (things I still don’t get)
+- 
+
+![Alt text](../assets/what.jpg "what is this?")
+
+## 6) Next actions (small, doable steps)
+- [ ] 
+
+## 7) Artifacts & links (code, queries, dashboards)
+- 
+
+---
+
+### Mini reflection (3–5 sentences)
+Learning how to learn :)
+    Data as a system. Data as a structure.
+    Make sure that data is understandable and trustable.
+
+
+
+
+
+### BONUS: What is a meme that best describes what you feel or your learning today?
+
+![Alt text](../assets/meme.png "what is a data engineer?")
