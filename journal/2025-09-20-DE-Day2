@@ -1,31 +1,38 @@
 # Journal — 9-20-2025 — Data Modeling
 
 ## 1) What I learned (bullets, not prose)
-Raw -> Clean (Cleaned Version) -> Sandbox (Query) -> Mart (views for connection with DataBase)
-
-    Table saves the data - creates a new copy of data
-    View - continuous query; saves the query
+[]Data pipelines typically move data from Raw → Clean → Sandbox → Mart layers.
+[]Raw layer stores original data as-is.
+[]Clean layer applies transformations and cleaning for consistent, reliable data.
+[]Sandbox layer is for experimenting with queries on the clean data.
+[]Mart layer provides curated views or tables designed for final analysis and reporting.
+[]Tables physically save data copies; views save the SQL query, dynamically showing results.
+[]Data models use normalization forms: 1NF, 2NF, 3NF, BCNF, 4NF/5NF — increasing purity and reducing anomalies.
+[]Working locally vs. remote involves deciding where tools (DLT, dbt, databases) run—on your machine or cloud/server.
 
 
 
 ## 2) New vocabulary (define in your own words)
-- ENGINE MEMORY - saves to memory
-- DATA MAPPING - 
+- **ENGINE MEMORY**: Data stored in memory, making access much faster  
+- **DATA MAPPING**: Linking and organizing data between different structures or sources  
 
 
 ## 3) Data Engineering mindset applied (what principles did I use?)
-- 
+- Build **reusable, scalable data pipelines** that grow with your needs  
 
 ## 4) Decisions & assumptions (why, alternatives, trade-offs)
-- 
+- Deciding when to run tools locally versus remotely for resource efficiency.
 
 ## 5) Open questions (things I still don’t get)
-- 
-
-![Alt text](../assets/what.jpg "what is this?")
+- ❓ How do I create a clear and flexible **entity-relationship model**?  
+- ❓ How to ensure my **ER diagrams adapt** as projects evolve?  
+- ❓ What's the best approach to **document database schemas** and design choice
 
 ## 6) Next actions (small, doable steps)
-- [ ] 
+[ ] Practice simple to advanced SQL Queries (Enroll in Tutorials Dojo)
+[ ] Practice creating ER diagrams
+[ ] Learn to run dbt or DLT commands remotely and handle typical errors.
+
 
 ## 7) Artifacts & links (code, queries, dashboards)
 - 
@@ -33,14 +40,9 @@ Raw -> Clean (Cleaned Version) -> Sandbox (Query) -> Mart (views for connection 
 ---
 
 ### Mini reflection (3–5 sentences)
-Learning how to learn :)
-    Data as a system. Data as a structure.
-    Make sure that data is understandable and trustable.
+Data is more than just rows and columns. It’s a **system and structure**. Thoughtful design helps build trustworthy data, making insights reliable and accessible for all team members.
 
 
+### 😂 BONUS: Meme of the day  
 
-
-
-### BONUS: What is a meme that best describes what you feel or your learning today?
-
-![Alt text](../assets/meme.png "what is a data engineer?")
+![Alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaB2y6DIGYK9p-dwr20fryPociR__Hu9oTkA&s "overload")
